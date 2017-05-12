@@ -10,8 +10,11 @@
 \usepackage{multirow}
 \usepackage{setspace}
 \usepackage{url}
+
 \pagestyle{plain}
 \setlength\parindent{0pt}
+
+\newcommand\tab[1][.5in]{\hspace*{#1}}
 
 \begin{document}
 
@@ -19,7 +22,7 @@
 \begin{center}
     \includegraphics[width=3in]{logo-mines.png}
     \vspace{10mm}\\
-    \LARGE VR Independent Study
+    \LARGE Virtual Reality Independent Study
     \vspace{10mm}
 \end{center}
 
@@ -27,11 +30,10 @@
 \textbf{Dr. Jeffery Paone} \\
 \url{jpaone@mines.edu} \\
 280C Brown Hall \\
-Office Hours: TBD \\
-(303) 384-2587 \\
+(303) 384-2587
 
 % Course details
-\textbf {\large \\ Course Description:}
+\section{Overview}
 Place the course description here. Place the course description here. Place the
 course description here. Place the course description here. Place the course
 description here. Place the course description here. Place the course
@@ -41,121 +43,64 @@ description here. Place the course description here. Place the course
 description here. Place the course description here. Place the course
 description here. \\
 
-\textbf {Prerequisite(s):} None.\\
-\textbf {Credit Hours:} 3 \\
+\textbf{Prerequisite:} C or better in CSCI 262 \\
+\textbf{Credit Hours:} 3 \\
+\textbf{Meeting Time:} 1 Hour/Week TBD
 
-\textbf {\large Course Objectives:} \\
+\subsection{Course Objectives}
 At the completion of this course, students will be able to:
 \begin{enumerate} \itemsep-0.4em
     \item O
     \item B
-    \item J  \item E
-    \item C  \item T  \item I
+    \item J
+    \item E
+    \item C
+    \item T
+    \item I
     \item V
     \item E
     \item S
 \end{enumerate}
 
-\textbf {\large Grade Distribution:} \\
-\hspace*{40mm}
-\begin{tabular}{ l l }
-    Labs & 20\% \\
-    Assignments & 20\% \\
-    Project & 10\% \\
-    Quizzes  & 10\% \\
-    Midterm Exam  & 20\% \\
-    Final Exam  & 20\%
-\end{tabular} \\\\
+\newpage
+\section{Grading Policy}
+\subsection{Grade Distribution}
+\begin{tabular}{ll}
+    \textbf{Project 1} & \textbf{10\%} \\
+    \textbf{Project 2} & \textbf{10\%} \\
+    \textbf{Final Project} & \textbf{60\%} \\
+    \tab Project Proposal & 5\% \\
+    \tab Milestone 1 & 5\% \\
+    \tab Milestone 2 & 10\% \\
+    \tab Milestone 3 & 10\% \\
+    \tab Milestone 4 & 10\% \\
+    \tab Milestone 5 & 10\% \\
+    \tab Milestone 6 & 10\% \\
+    \textbf{Final Report} & \textbf{20\%}
+\end{tabular}
 
-\textbf {\large Letter Grade Distribution:} \\\\
-\hspace*{40mm}
-\begin{tabular}{ l l }
+\subsection{Letter Grade Distribution}
+\begin{tabular}{ll}
     90.00 - 100.0 & A \\
     80.00 - 89.99 & B \\
     70.00 - 79.99 & C \\
     60.00 - 69.99 & C \\
-    00.00 - 59.99 & C \\
-\end{tabular} \\
+    00.00 - 59.99 & C
+\end{tabular}
 
-% Course Policies. These are just examples, modify to your liking.
-\textbf {\large Course Policies:}
-\begin{itemize}
-    \item \textbf {General}
-        \begin{itemize}
-            \item Computers are not to be used unless instructed to do so.
-            \item Quizzes and exams are closed book, closed notes.
-            \item \textbf {No makeup quizzes or exams will be given.}
-        \end{itemize}
-    \item \textbf {Grades}
-        \begin{itemize}
-            \item Grades in the \textbf{C} range represent performance that \textbf{meets expectations}; Grades in the \textbf{B} range represent performance that is \textbf{substantially better} than the expectations; Grades in the \textbf{A} range represent work that is \textbf{excellent}.
-            \item Grades will be maintained in the LMS course shell. Students are responsible for tracking their progress by referring to the online gradebook.
-        \end{itemize}
-    \item \textbf {Labs and Assignments}
-        \begin{itemize}
-            \item Students are expected to work independently. \textbf{Offering} and \textbf{accepting} solutions from others is an act of \textbf{plagiarism}, which is a serious offense and \textbf{all involved parties will be penalized according to the Academic Honesty Policy}. Discussion amongst students is encouraged, but when in doubt, direct your questions to the professor, tutor, or lab assistant.
-            \item \textbf{No late assignments will be accepted under any circumstances}.
-        \end{itemize}
-    \item \textbf{Attendance and Absences}
-        \begin{itemize}
-            \item Attendance is expected and will be taken each class. You are allowed to miss \textbf{1} class during the semester without penalty. Any further absences will result in point and/or grade deductions.
-            \item Students are responsible for all missed work, regardless of the reason for absence. It is also the absentee's responsibility to get all missing notes or materials.
-        \end{itemize}
-\end{itemize}
+\subsection{Late Policy}
+% TODO: someone who knows grammar fix this
+A penalty of 10\% will be assessed for every school day late a project is.
 
-% College Policies
-\textbf {\large Academic Honesty Policy Summary:}
-% This should be specific to your instituition, an example is provided.
-
-\textbf{Introduction}
-
-\hspace{3mm}
-\hangindent=5mm In addition to skills and knowledge, COLLEGE/UNIVERSITY aims to teach students appropriate Ethical and Professional Standards of Conduct. The Academic Honesty Policy exists to inform students and Faculty of their obligations in upholding the highest standards of professional and ethical integrity. All student work is subject to the Academic Honesty Policy. Professional and Academic practice provides guidance about how to properly cite, reference, and attribute the intellectual property of others. Any attempt to deceive a faculty member or to help another student to do so will be considered a violation of this standard.
-
-\textbf{Instructor's Intended Purpose}
-
-\hspace{3mm}
-\hangindent=5mm The student's work must match the instructor's intended purpose for an assignment. While the instructor will establish the intent of an assignment, each student must clarify outstanding questions of that intent for a given assignment.
-
-\textbf{Unauthorized/Excessive Assistance}
-
-\hspace{3mm}
-\hangindent=5mm The student may not give or get any unauthorized or excessive assistance in the preparation of any work.
-
-\textbf{Authorship}
-
-\hspace{3mm}
-\hangindent=5mm The student must clearly establish authorship of a work. Referenced work must be clearly documented, cited, and attributed, regardless of media or distribution. Even in the case of work licensed as public domain or Copyleft, (See: http://creativecommons.org/) the student must provide attribution of that work in order to uphold the standards of intent and authorship.
-
-\textbf{Declaration}
-
-\hspace{3mm}
-\hangindent=5mm Online submission of, or placing one's name on an exam, assignment, or any course document is a statement of academic honor that the student has not received or given inappropriate assistance in completing it and that the student has complied with the Academic Honesty Policy in that work.
-
-\textbf{Consequences}
-
-\hspace{3mm}
-\hangindent=5mm An instructor may impose a sanction on the student that varies depending upon the instructor's evaluation of the nature and gravity of the offense.  Possible sanctions include but are not limited to, the following: (1) Require the student to redo the assignment; (2) Require the student to complete another assignment; (3) Assign a grade of zero to the assignment; (4) Assign a final grade of ``F'' for the course. A student may appeal these decisions according to the Academic Grievance Procedure. (See the relevant section in the Student Handbook.) Multiple violations of this policy will result in a referral to the Conduct Review Board for possible additional sanctions. \\
-
-The full text of the Academic Honesty Policy is in the \emph{Student Handbook}.
-
-\newpage
-% A new page is forced here. This can be moved around or altered based on how much space is needed for the course policies. Or, the \newpage can be removed. It's up to you.
-
-\textbf {\large Category X:}
-
-\hspace{3mm}
-\hangindent=5mm Put any other categories of information related to your college/university here. \\
-
-% The data research disclosure can be removed if you are not into research or if you don't plan on ever using course data in publications.
-\textbf {\large Data for Research Disclosure}:
-
-Any and all results of in-class and out-of-class assignments and examinations are data sources for research and may be used in published research. All such use will always be anonymous.
+\section{Project 1}
+\section{Project 2}
+\section{Final Project}
+\section{Final Report}
 
 \newpage
 
 % Course Outline
-\textbf {\large Tentative Course Outline}:
+\section{Tentative Course Outline}
 
 The weekly coverage might change as it depends on the progress of the class.  However, you must keep up with the reading assignments.
 
@@ -295,6 +240,3 @@ Week 14 & \begin{minipage}{.85\textwidth}
 \end{table}
 
 \end{document}
-
-
-
