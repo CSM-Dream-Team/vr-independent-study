@@ -1,0 +1,3 @@
+[submodule "csci499"]
+	path = csci499
+	url = git@github.com:sumnerevans/csci499.git
